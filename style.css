@@ -15,12 +15,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    max-width: 100%;
-    min-height: 1100px;
+    width: 100%;
+    height: 740px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 154px;
 }
 
 /* banner styling */
@@ -28,36 +28,35 @@
 .banner-container{
     max-width: 100%;
     max-height: 100%;
-    margin: 0 221px 46px;
+    margin: 26px 221px 44px;
 }
 
 .banner-container img{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    width: 500px;
+    margin-top: 26px;
 }
 
 .banner-texts{
-    margin-top: 70px;
+    margin-top: 32px;
 }
 .banner-texts h1{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 800;
     line-height: 68px;
     text-align: center;
-    margin-bottom: 32px;
 }
 
 .banner-texts p{
-    margin-top: 60px;
+    margin-top: 24px;
     margin-left: 73px;
     margin-right: 73px;
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -66,11 +65,11 @@
 
 .banner-button{
     margin: 0 auto;
-    margin-top: 70px;
-    border-radius: 10px;
+    margin-top: 32px;
+    border-radius: 8px;
     background: rgb(13, 19, 33);
-    width: 250px;
-    height: 90px;
+    width: 220px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,10 +79,9 @@
 .banner-button button{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 23px;
-    letter-spacing: 0%;
     text-align: center;
     background: rgb(13, 19, 33);
     border: 0px solid rgb(13, 19, 33);
@@ -92,62 +90,54 @@
 /* why web development styling */
 
 .web-dev-outer{
-    width: 100%;
-    height: 1100px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 154px;
 }
 
 .web-dev-inner{
     width: 70%;
-    height: 1233px;
-    margin: 100px 97px;
 }
 
 .why-web-dev{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
+    margin: 0 auto;
 }
 
 .why-web-dev h1{
-    margin-bottom: 35px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 35px;
+    width: 852px;
+    height: 37px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 37px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 .why-web-dev p{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    margin-bottom: 40px;
-}
-
-.reasons{
-    margin: 48px;
+    margin-bottom: 48px;
 }
 
 .frames{
     display: flex;
     justify-content: space-between;
-}
-
-.frames img{
-    width: 260px
+    margin-bottom: 48px;
 }
 
 .frame-content{
-    width: 65%;
+    width: 55%;
     margin-top: 10.5px;
     margin-bottom: 10.5px;
 }
@@ -155,17 +145,16 @@
 .frame-p1{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 36px;
-    margin-bottom: 30px;
 }
 
 .frame-p2{
     margin-top: 16px;
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 30px;
@@ -195,4 +184,44 @@
     background-color: white;
 }
 
-/* my inspiration */
+/* my inspiration styling*/
+
+.my-inspiration{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 151px;
+}
+
+.my-inspiration-texts h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.my-inspiration-texts p{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.inspiration-video{
+    max-width: 1140px;
+    max-height: 614px;
+}
+
+.inspiration-video iframe{
+    width: 1076px;
+    height: 550px;
+}
