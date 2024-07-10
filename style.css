@@ -196,7 +196,7 @@ background: rgba(13, 19, 33, 0.02);
     line-height: 23px;
     text-align: center;
     border: 0px;
-    background-color: white;
+    background: none;
 }
 .frame-button a{
     text-decoration: none;
