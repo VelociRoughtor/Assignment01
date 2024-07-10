@@ -11,7 +11,7 @@
 }
 
 .header{
-    background-image: url("images/Hero-bg.png");
+    background-image: url("images/hero_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -361,7 +361,7 @@ background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     background-image: url("images/handshake.jpg");
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
     background-blend-mode: overlay;
     margin-bottom: 112px;
 }
