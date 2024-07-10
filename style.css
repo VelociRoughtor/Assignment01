@@ -346,6 +346,7 @@
     background-image: url("images/handshake.jpg");
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: overlay;
+    margin-bottom: 112px;
 }
 
 .support-inner{
@@ -447,4 +448,39 @@
     line-height: 23px;
     background: rgb(255, 255, 255);
     border: 0px;
+}
+
+
+/*footer section */
+
+footer{
+    max-width: 1140px;
+    max-height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+footer > p{
+    max-width: 1140px;
+    max-height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts{
+    max-width: 157.01px;
+    max-height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contacts a{
+    margin-right: 24px;
 }
