@@ -91,7 +91,7 @@
 .banner-button a {
     text-decoration: none;
     color: white;
-  }
+}
 
 /* why web development styling */
 
@@ -188,6 +188,10 @@
     text-align: center;
     border: 0px;
     background-color: white;
+}
+.frame-button a{
+    text-decoration: none;
+    color: rgba(13, 19, 33, 0.7);;
 }
 
 /* my inspiration styling*/
