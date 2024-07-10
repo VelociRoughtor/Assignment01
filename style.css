@@ -63,7 +63,7 @@
     text-align: center;
 }
 
-.banner-button{
+.banner-button {
     margin: 0 auto;
     margin-top: 32px;
     border-radius: 8px;
@@ -74,10 +74,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+    cursor: pointer; 
+  }
+  
 
 .banner-button button{
-    color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 600;
@@ -86,6 +87,11 @@
     background: rgb(13, 19, 33);
     border: 0px solid rgb(13, 19, 33);
 }
+
+.banner-button a {
+    text-decoration: none;
+    color: white;
+  }
 
 /* why web development styling */
 
@@ -309,7 +315,6 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
 }
